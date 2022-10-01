@@ -1,16 +1,12 @@
 # up_chuck_flutter
 
-A new Flutter project.
+Demonstrate initializing Flutter RiverPod in main using a ProviderContainer.
 
-## Getting Started
+Source code for <https://youtu.be/ob8M9c-6III>.
 
-This project is a starting point for a Flutter application.
+## Some Links
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Andrea Bizzotto's inspiration for this show: <https://codewithandrea.com/articles/riverpod-initialize-listener-app-startup/>
+- Previous show with RunApp twice: <https://youtu.be/S05fvqzzgzE>
+- Published on Firebase Hosting: <https://chuck-flutter.web.app/#/>
+- And special thanks to the Chuck Norris Joke Server: <https://api.chucknorris.io>
