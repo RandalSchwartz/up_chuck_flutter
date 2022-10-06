@@ -51,11 +51,10 @@ class MyHomePage extends ConsumerWidget {
                   const Text('tap to refresh'),
                   Expanded(
                     child: Center(
-                      child: quote.when(
+                      child: quote.unwrapPrevious().when(
                         data: (String data) {
-                          final dotdot = quote.isRefreshing ? '\n...' : '';
                           return Text(
-                            '$data$dotdot',
+                            data,
                             style: Theme.of(context).textTheme.headlineSmall,
                             textAlign: TextAlign.center,
                           );

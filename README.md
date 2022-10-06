@@ -4,6 +4,9 @@ Demonstrate initializing Flutter RiverPod in main using a ProviderContainer.
 
 Source code for <https://youtu.be/ob8M9c-6III>.
 
+The code differs slightly from the video.
+I discovered `.unwrapPrevious()` a bit too late.
+
 ## Some Links
 
 - Andrea Bizzotto's inspiration for this show: <https://codewithandrea.com/articles/riverpod-initialize-listener-app-startup/>
